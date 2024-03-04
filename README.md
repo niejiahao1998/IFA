@@ -26,21 +26,31 @@ The following datasets are used for evaluation in CD-FSS:
 ### Target domains: 
 * **Deepglobe**:
     Home: http://deepglobe.org/
+
     Direct: https://www.kaggle.com/datasets/balraj98/deepglobe-land-cover-classification-dataset   
+
     Data Preprocessing Code: Please refer [preprocess_deepglobe.py](https://github.com/niejiahao1998/IFA/tree/master/data/preprocess_deepglobe.py) or [PATNet repo](https://github.com/slei109/PATNet).
 
 * **ISIC2018**:
+  
     Home: http://challenge2018.isic-archive.com
-    Direct (must login): https://challenge.isic-archive.com/data#2018   
+
+    Direct (must login): https://challenge.isic-archive.com/data#2018
+
     Class Information: data/isic/class_id.csv
+
     Data Preprocessing Code: Please refer [preprocess_isic.py](https://github.com/niejiahao1998/IFA/tree/master/data/preprocess_isic.py) or [PATNet repo](https://github.com/slei109/PATNet).
 
 * **Chest X-ray**:
+  
     Home: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4256233/
+
     Direct: https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels
 
 * **FSS-1000**:
+  
     Home: https://github.com/HKUSTCV/FSS-1000
+
     Direct: https://drive.google.com/file/d/16TgqOeI_0P41Eh3jWQlxlRXG9KIqtMgI/view
 
 ## Pre-trained ResNet Models
@@ -137,9 +147,12 @@ If you use this codebase for your research, please consider citing:
 
 ## Acknowledgement
 Our codebase is built based on [PATNet](https://github.com/slei109/PATNet) and [SSP](https://github.com/fanq15/SSP)'s official code.
+
 We also thank [HSNet](https://github.com/juhongm999/hsnet) and other FSS and CD-FSS works for their great contributions.
 
 ## Reference
 [1] Shuo Lei, Xuchao Zhang, Jianfeng He, Fanglan Chen, Bowen Du, and Chang-Tien Lu. Cross-domain few-shot semantic segmentation. ECCV, 2022.
+
 [2] Qi Fan, Wenjie Pei, Yu-Wing Tai, and Chi-Keung Tang. Self-support few-shot semantic segmentation. ECCV, 2022.
+
 [3] Juhong Min, Dahyun Kang, and Minsu Cho. Hypercorrelation squeeze for few-shot segmentation. ICCV, 2021.
