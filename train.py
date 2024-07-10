@@ -118,7 +118,7 @@ def main():
     testloader = FSSDataset.build_dataloader(args.dataset, args.batch_size, 4, '0', 'val', args.shot)
 
     print('Do we use SSP refinement?', args.refine)
-    model = IFA_MatchingNet(args.backbone, args.refine)
+    model = IFA_MatchingNet(args.backbone, args.refine, args.shot)
     print('\nParams: %.1fM' % count_params(model))
 
     for param in model.layer0.parameters():

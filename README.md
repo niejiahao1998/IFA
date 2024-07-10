@@ -138,7 +138,7 @@ Please note that the performances may flutuate within a small range because of d
 ## Citation
 If you use this codebase for your research, please consider citing:
 ```bash
- @article{nie2024cross,
+@article{nie2024cross,
   title={Cross-Domain Few-Shot Segmentation via Iterative Support-Query Correspondence Mining},
   author={Nie, Jiahao and Xing, Yun and Zhang, Gongjie and Yan, Pei and Xiao, Aoran and Tan, Yap-Peng and Kot, Alex C and Lu, Shijian},
   journal={arXiv preprint arXiv:2401.08407},
